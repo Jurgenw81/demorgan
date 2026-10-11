@@ -1,14 +1,13 @@
-# demorgen.ai website
+# demorgen.ai — Hotel website
 
-Static website for GitHub Pages. No build step or API key required.
+## GitHub Pages
+Extract this archive. Upload all contents to the repository root, keeping index.html at the root.
+In Settings > Pages choose Deploy from a branch, select main (or your branch), then / (root).
+No build step, API keys or server required.
 
-## Upload and publish
-1. Extract this ZIP.
-2. Upload its contents to the root of a GitHub repository. Keep index.html at the root, not inside an extra folder.
-3. In the repository, open Settings > Pages.
-4. Select Deploy from a branch, choose your branch (usually main) and / (root), then Save.
-5. GitHub will display the published website address when deployment finishes.
+The website includes an interactive hotel/restaurant walkthrough, service descriptions, screenshots and email contact links.
+Live voice and staff demos are external links, hosted separately; their access settings may require sign-in. Publishing this website does not change their access.
 
-The interactive examples and email links work as static files. Live voice demos open separately on their existing hosting and may require sign-in. No backend or secrets are included.
+Before public business launch, complete the provider details in the Impressum and the privacy information in app.js. These currently identify the site as a draft. No company address or legal identity has been invented.
 
-The demorgen.ai domain is not configured by this download. Company and privacy details still need completing before a public business launch.
+The demorgen.ai domain is not configured by this ZIP. Connect an owned domain separately through GitHub Pages settings and your DNS provider.
